@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-
+import Workout from '../Workout/Workout';
+import './WrokOuts.css'
 const WorkOuts = () => {
     const [workOuts, setWorkOuts] = useState([])
 
@@ -13,7 +14,13 @@ const WorkOuts = () => {
     return (
         <div className='main-container'>
             <div className="workouts-container">
-                <h2>this is workouts</h2>
+
+                {
+
+                    workOuts.map(workout => <Workout
+                        key={workout.id}
+                        workout={workout} ></Workout>)
+                }
             </div>
             <div className="workout-container">
                 <h5>workout summery</h5>

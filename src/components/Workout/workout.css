@@ -1,0 +1,26 @@
+.work-out {
+    width: 286px;
+    height: 580px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 8px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px gray;
+    text-align: center;
+}
+
+img {
+    width: 286px;
+    height: 300px;
+}
+
+.btn-list {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: dodgerblue;
+    border-radius: 10px;
+
+}

@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "name": "Exercise Activities",
+    "name": "Fitness Activities",
     "description": "Hammer Strength's rugged performance strength training equipment is the most durable on the market and is designed to withstand the most intense workouts.",
     "time": "30m",
     "age": 22,
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "name": "Exercise Activities",
+    "name": "Gym Activities",
     "description": "Hammer Strength's rugged performance strength training equipment is the most durable on the market and is designed to withstand the most intense workouts.",
     "time": "30m",
     "age": 22,
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "name": "Exercise Activities",
+    "name": "Hummber Activities",
     "description": "Hammer Strength's rugged performance strength training equipment is the most durable on the market and is designed to withstand the most intense workouts.",
     "time": "30m",
     "age": 22,
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "name": "Exercise Activities",
+    "name": "Fresh Activities",
     "description": "Hammer Strength's rugged performance strength training equipment is the most durable on the market and is designed to withstand the most intense workouts.",
     "time": "30m",
     "age": 22,
@@ -41,10 +41,10 @@
   },
   {
     "id": 6,
-    "name": "Exercise Activities",
+    "name": "Practice Activities",
     "description": "Hammer Strength's rugged performance strength training equipment is the most durable on the market and is designed to withstand the most intense workouts.",
     "time": "30m",
     "age": 22,
-    "img": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1820&q=80"
+    "img": "https://img.freepik.com/free-psd/gym-fitness-flyer-poster-template_501970-80.jpg?w=1060&t=st=1664424309~exp=1664424909~hmac=0419c9835a2028aedc4caea5d3d3cd42a0b047c1aab73b50d74ababef6583b64"
   }
 ]

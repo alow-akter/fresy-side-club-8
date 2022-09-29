@@ -1,14 +1,14 @@
 .nav-text {
     margin-left: 5px;
-    color: darkmagenta;
-    font-weight: 600;
+    color: rgb(243, 30, 243);
+    font-weight: 700;
 }
 
 .freshClub {
     display: flex;
     justify-content: space-between;
     padding: 5px;
-    background-color: rgb(128, 127, 127);
+    background-color: darkgray;
     font-size: 18px;
     font-weight: 500;
 }
