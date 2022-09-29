@@ -1,0 +1,24 @@
+.nav-text {
+    margin-left: 5px;
+    color: darkmagenta;
+    font-weight: 600;
+}
+
+.freshClub {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgb(128, 127, 127);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.freshClub a {
+    text-decoration: none;
+    margin: 22px;
+}
+
+.freshClub a:hover {
+    color: orange;
+
+}
