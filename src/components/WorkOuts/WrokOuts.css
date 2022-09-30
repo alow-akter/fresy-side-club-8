@@ -8,3 +8,93 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.workout-container {
+    background-color: darkgrey;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.cart-container {
+    margin: 5px;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.btn-container {
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.btn-cart {
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: rgb(211, 178, 243);
+}
+
+.details {
+    margin-top: 60px;
+}
+
+.exercise {
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 10px;
+    text-align: start;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.break-time {
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 10px;
+    text-align: start;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-aective {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 50px;
+    background-color: rgb(211, 178, 243);
+
+}
+
+@media screen and (max-width:1024px) {
+    .workouts-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .freshClub {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .workouts-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 200px;
+    }
+
+    .freshClub {
+        width: 100%;
+    }
+
+    .main-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

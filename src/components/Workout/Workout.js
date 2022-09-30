@@ -2,8 +2,8 @@ import React from 'react';
 import './workout.css'
 
 const Workout = (props) => {
-    console.log(props)
-    const { name, description, img, time, age } = props.workout
+    const { name, description, img, time, age } = props.workout;
+    const { handleToClick } = props;
     return (
         <div className='work-out'>
             <div>
@@ -13,7 +13,7 @@ const Workout = (props) => {
                 <p>Time required : {time}</p>
                 <p>For Age : {age}</p>
             </div>
-            <button className='btn-list'>Add To List</button>
+            <button onClick={() => handleToClick(props.workout)} className='btn-list'>Add To List</button>
         </div>
     );
 };
