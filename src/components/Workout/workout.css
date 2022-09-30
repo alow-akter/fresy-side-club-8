@@ -24,3 +24,7 @@ img {
     border-radius: 10px;
 
 }
+
+.btn-list:hover {
+    background-color: goldenrod;
+}
