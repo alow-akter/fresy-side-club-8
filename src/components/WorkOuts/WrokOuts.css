@@ -72,6 +72,41 @@
 
 }
 
+
+.question-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 15px;
+}
+
+.q-one {
+    background-color: rgb(242, 204, 204);
+    color: black;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.q-two {
+    background-color: rgb(241, 196, 196);
+    color: black;
+    border: 1px solid gray;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+.q-three {
+    background-color: rgb(241, 196, 196);
+    color: black;
+    border: 1px solid gray;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
 @media screen and (max-width:1024px) {
     .workouts-container {
         grid-template-columns: repeat(2, 1fr);
@@ -87,6 +122,7 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-left: 200px;
+
     }
 
     .freshClub {
@@ -94,6 +130,11 @@
     }
 
     .main-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .question-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
